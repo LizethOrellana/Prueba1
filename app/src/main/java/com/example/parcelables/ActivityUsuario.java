@@ -25,7 +25,7 @@ public class ActivityUsuario extends AppCompatActivity {
         String rol = usuario.getRol();
         String email= usuario.getEmail();
 
-        binding.Rol.setText(rol);
+        binding.Rol.setText("Rol: "+rol);
         binding.txtEmail.setText(email);
         binding.txtNombre.setText(usua);
 
